@@ -1,0 +1,14 @@
+form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.list {
+  display: flex;
+}
