@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+.col {
+  display: inline-flex;
+}
+.card {
+  height: auto;
+  padding: 5px;
+  border: 1px solid grey;
+  text-align: center;
+  margin: 5px;
+}
+button {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  height: 50%;
+  border-radius: 0.25rem;
+}

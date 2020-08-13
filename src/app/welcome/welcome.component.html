@@ -1,0 +1,20 @@
+<div *ngIf="!quiz" class="spinner-grow text-primary"></div>
+<div *ngIf="quiz" class="container">
+  <h1>Choose your quiz</h1>
+  <br />
+  <div class="row">
+    <div class="col" *ngFor="let q of quiz">
+      <div class="card" style="width: 18rem; height: 10rem;">
+        <div class="card-body">
+          <h2 class="card-title">{{ q.label }}</h2>
+          <p>{{ q.description }}</p>
+        </div>
+        <div class="card-footer">
+          <button type="button" routerLink="/{{ q.name.toLowerCase() }}">
+            Start!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
